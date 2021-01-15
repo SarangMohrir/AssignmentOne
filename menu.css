@@ -3,12 +3,13 @@
   font-family: 'Mulish';
   src: url('Mulish-Light.woff') format('woff');
 }* {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+
   box-sizing: border-box;
 }
 
 body {
+
   height: 1200px;
   font-size: 18px;
   font-family: Mulish;
@@ -23,16 +24,18 @@ a:visited {
 
 
 .header-container {
-  position: relative;
+
   display: flex;
   justify-content: space-around;
 
   width: 100%;
-  padding: 50px;
+  padding: 5%;
   background: white;
+
 }
-.menu {
-  margin-top: 15px;
+.menu{
+  justify-content: flex-end;
+
 }
 .menu > li {
   display: inline;
@@ -53,47 +56,46 @@ color: #1F1534;
 
 opacity: 0.5;
 }
-.TextleftofImag{
-  display: flex;
+.logo{
   justify-content: flex-start;
-  position: relative;
-  top: 200px;
-  left: 320px;
+}
+.header-after-menu{
+  display: flex;
+align-self: center;
+ justify-content: space-around;
+}
+.TextleftofImage{
+align-self: center;
+margin-left: 15%;
+margin-right: 5%;
+
 }
 .first-para{
-  font-family: Mulish;
+
+font-family: Mulish;
 font-style: normal;
 font-weight: bold;
 font-size: 48px;
 line-height: 56px;
-
 color: #000000;
-
 mix-blend-mode: normal;
+
 }
 .second-para{
-  position: absolute;
-  top: 150px;
-  font-family: Mulish;
+
+font-family: Mulish;
 font-style: normal;
 font-weight: 300;
 font-size: 21px;
 line-height: 32px;
-
 color: #7D7987;
-
 mix-blend-mode: normal;
+
 }
 .buttonone{
 
-  position: absolute;
-
-  top: 300px;
-  background: #458FF6;
-  border-radius: 55px;
-
-}
-.button-text{
+background: #458FF6;
+border-radius: 55px;
 font-family: Mulish;
 font-style: normal;
 font-weight: bold;
@@ -101,15 +103,16 @@ font-size: 18px;
 line-height: 60px;
 color: #FFFFFF;
 mix-blend-mode: normal;
+margin-top: 12%;
 }
+
 .imageonright{
   display: flex;
   justify-content: flex-end;
-  margin-right: 270px;
-  margin-bottom: : 104px;
+  margin-right: 10%;
 }
 .heading{
-  font-family: Mulish;
+font-family: Mulish;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -128,7 +131,7 @@ text-align: center;
   top: 50px;
 }
 .title-card{
-  font-family: Mulish;
+font-family: Mulish;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -147,10 +150,10 @@ flex-direction: row;
 position: relative;
 width: 350px;
 height: 354px;
-left: 100px;
+
 top: 350px;
-margin: 5px;
-padding: 10px;
+margin: 10px;
+padding: 50px;
 background: #FFFFFF;
 box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 border-radius: 20px;
@@ -165,10 +168,10 @@ flex-direction: row;
 position: relative;
 width: 350px;
 height: 354px;
-left: 100px;
+
 top: 350px;
-margin: 5px;
-padding: 10px;
+margin: 10px;
+padding: 50px;
 background: #FFFFFF;
 box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 border-radius: 20px;
