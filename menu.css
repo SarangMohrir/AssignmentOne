@@ -2,9 +2,9 @@
 @font-face {
   font-family: 'Mulish';
   src: url('Mulish-Light.woff') format('woff');
-}* {
+}
+*{
   margin: 0 auto;
-
   box-sizing: border-box;
 }
 
