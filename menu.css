@@ -1,40 +1,37 @@
 @font-face {
-  font-family: 'Mulish';
-  src: url('Mulish-Light.woff') format('woff');
+  font-family: "Mulish";
+  src: url("Mulish-Light.woff") format("woff");
 }
-*{
+* {
   margin: 0 auto;
   box-sizing: border-box;
 }
+.body-container{
+  margin-right: 10%;
+  margin-left: 10%;
+}
 
 body {
-
-  height: 1200px;
   font-size: 18px;
   font-family: Mulish;
-  color: #5D6063;
+  color: #5d6063;
 }
 
 a:link,
 a:visited {
-  color: #5D6063;
+  color: #5d6063;
   text-decoration: none;
 }
 
-
 .header-container {
-
   display: flex;
   justify-content: space-around;
 
   width: 100%;
   padding: 5%;
   background: white;
-
 }
-.menu{
-  justify-content: flex-end;
-
+.menu {
 }
 .menu > li {
   display: inline;
@@ -43,135 +40,129 @@ a:visited {
 .menu > li:last-of-type {
   margin-right: 0;
 }
-.home{
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
-color: #1F1534;
+.home {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
 }
-.on-call{
+.on-call {
   font-weight: normal;
 
-opacity: 0.5;
+  opacity: 0.5;
 }
-.logo{
+.logo {
   justify-content: flex-start;
 }
-.header-after-menu{
+.header-after-menu {
   display: flex;
-align-self: center;
- justify-content: space-around;
+  align-self: center;
+  justify-content: space-around;
 }
-.TextleftofImage{
-align-self: center;
-margin-left: 15%;
-margin-right: 5%;
-
+.TextleftofImage {
+  align-self: center;
+  margin-left: 15%;
+  margin-right: 5%;
 }
-.first-para{
-
-font-family: Mulish;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 56px;
-color: #000000;
-mix-blend-mode: normal;
-
+.first-para {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
 }
-.second-para{
-
-font-family: Mulish;
-font-style: normal;
-font-weight: 300;
-font-size: 21px;
-line-height: 32px;
-color: #7D7987;
-mix-blend-mode: normal;
-
+.second-para {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  mix-blend-mode: normal;
 }
-.buttonone{
-
-background: #458FF6;
-border-radius: 55px;
-font-family: Mulish;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 60px;
-color: #FFFFFF;
-mix-blend-mode: normal;
-margin-top: 12%;
+.buttonone {
+  background: #458ff6;
+  border-radius: 55px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  margin-top: 12%;
 }
 
-.imageonright{
+.imageonright {
   display: flex;
   justify-content: flex-end;
   margin-right: 10%;
 }
-.heading{
-font-family: Mulish;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 56px;
-color: #000000;
-mix-blend-mode: normal;
-text-align: center;
+.heading {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  text-align: center;
 }
-.our-services{
+.our-services {
   position: relative;
   top: 300px;
 }
-.our-services-after{
+.our-services-after {
   text-align: center;
   position: relative;
   top: 50px;
 }
-.title-card{
-font-family: Mulish;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 56px;
-color: #000000;
+.title-card {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
 
-mix-blend-mode: normal;
+  mix-blend-mode: normal;
 }
-.card-container{
+.card-container {
   display: flex;
   justify-content: center;
 }
-.card{
-flex-wrap: wrap;
-flex-direction: row;
-position: relative;
-width: 350px;
-height: 354px;
+.card {
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  width: 350px;
+  height: 354px;
 
-top: 350px;
-margin: 10px;
-padding: 50px;
-background: #FFFFFF;
-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-border-radius: 20px;
+  top: 350px;
+  margin: 10px;
+  padding: 50px;
+  background: #ffffff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
 }
-.card-container-2{
+.card-container-2 {
   display: flex;
   justify-content: center;
 }
-.cardtwo{
-flex-wrap: wrap;
-flex-direction: row;
-position: relative;
-width: 350px;
-height: 354px;
+.cardtwo {
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  width: 350px;
+  height: 354px;
 
-top: 350px;
-margin: 10px;
-padding: 50px;
-background: #FFFFFF;
-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-border-radius: 20px;
+  top: 350px;
+  margin: 10px;
+  padding: 50px;
+  background: #ffffff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
 }
